@@ -1,6 +1,7 @@
 # INET 4031 Geometry Application
 
 Simple Python Flask web application for INET 4031
+Created by Joe Axberg and Andy Jude
 
 The "Geometry Calculator" Application
 
@@ -29,7 +30,6 @@ Each web page of this application contains both static and dynamic content.  The
 
 Take a moment to look at the code and see if you can make sense of it.  Flask is a very popular "lightweight" framework and thus the amount of information available online is volumous.
 
-The code will be dicussed and demonstrated in class.  Take notes!!!
 
 ## The Dependencies
 
@@ -65,7 +65,7 @@ Open up a command line (terminal) prompt on your computer and navigate to a dire
 
 ### Get the code:
 
-git clone https://github.com/axbjos/inet_4031_flask.git
+git clone [this repo link]
 
 This will download a copy of my repo on your system.  It is a complete separate copy.  You will not be able to modify my code in my repo (to do that I'd have to grant you a 'pull' request - which I will not).
 
@@ -88,7 +88,7 @@ Windows: `venv\Scripts\activate`
 
 Your prompt should look similar to this now:
 
-*(venv) joeaxberg@macbookm1pro inet_4031_flask %*
+*(venv) andy-jude@macbookm1pro inet_4031_flask %*
 
 Now you have an isolated "virtual" Python environment.  Modules you install will only be installed for THIS application.  The system-wide module library will not be impacted.
 
@@ -138,13 +138,9 @@ Using cylinder.py and cylinderTest.py, finish the functionality for the **sphere
 
 In the *.github/workflows* folder is an example YAML file for defining a GitHub action.
 
-This will be discussed in class.
-
 This action can be used to have GitHub automatically run the unit tests whenever code is checked in to the repo.
 
-You will need to duplicate my repo to try this functionality yourself (we will discuss in class).
+You will need to duplicate my repo to try this functionality yourself.
 
 
 # That's It!
-
-Please take the time to look through the code and understand it.  Better yet, show up to class and participate and learn, and understanding the code will be much easier.
