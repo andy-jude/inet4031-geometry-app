@@ -1,0 +1,15 @@
+<!--Helpful Source:  https://www.w3schools.com/tags/att_button_type.asp -->
+
+<html>
+<head></head>
+<body>
+    <form action="{{ url_for("sphereForm")}}" method="post">
+        <label for="radius">Please Enter the radius:</label>
+        <input type="text" id="radius" name="rad" placeholder="radius">
+    </br>
+    <p></p>
+        <button type="submit" name="input" value="Volume">Calculate Volume</button>
+        <button type="submit" name="input" value="surface_area">Calculate Surface Area</button>
+    </form>
+</body>
+</html>
